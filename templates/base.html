@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>O'resto</title>
-</head>
-<header>
-    
-</header>
-<body>
-    <div class="content">
-        <h1>Tom sent le zizi</h1>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>O'resto</title>
+    </head>
+    <body>
+        <nav>
+            {% include 'nav.html' %}
+            <!-- Cette ligne de code "include" permet que ce que tu ecris dans nav.html soit inséré ici mais ne varie pas selon le template (la page) chargé -->
+        </nav>
+        <section>
+            <header>
+              {% block entete %}{% endblock %}
+              <!-- Cette ligne de code "block" permet aux differentes templates (comme accueil.html) d'utiliser ces points d'appuits pour insérer leur html (variable selon les templates)-->
+            </header>
+            {% block contenu %}{% endblock %}
+            <!-- pareille du coup -->
+          </section>
+    </body>
 </html>
