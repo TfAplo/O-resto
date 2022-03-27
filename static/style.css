@@ -5,3 +5,9 @@ body {
 h1{
     color: #7E9DC2;
 }
+
+footer{
+    position:absolute ;
+    bottom: 0%;
+    background-color: grey;
+}
