@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
 body {
     background-color: #F8F8F8;
 }
@@ -12,3 +14,11 @@ footer{
     bottom: 0%;
     background-color: grey;
 }
+
+nav {
+    background-color: #FF0F39;
+    font-family: 'Parisienne', cursive;
+}
+
+
+
