@@ -23,13 +23,13 @@ nav {
 
 footer{
     font-family: 'Montserrat', sans-serif;
-    padding: 3rem;
+    padding: 2rem;
     background-color: grey;
     margin-top: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 28px;
+    line-height: 200%;
 }
 
 .con{
@@ -42,8 +42,25 @@ footer{
 }
 
 .contact{
+    font-size: larger;
     margin: auto;
     color: #a7a7a7;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+.madeby{
+    font-size: small;
+    color: rgb(53, 49, 49);
+}
+
+.reseaux{
+    width: 100%;
+    align-items: center;
+}
+
+.media-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
 }
