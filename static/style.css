@@ -54,13 +54,13 @@ footer{
     color: rgb(53, 49, 49);
 }
 
-.reseaux{
-    width: 100%;
-    align-items: center;
-}
-
 .media-list{
+    padding-inline-start: 0px;
     display: flex;
     list-style-type: none;
     align-items: center;
+}
+
+.media-list li{
+    padding-left: 20px;
 }
