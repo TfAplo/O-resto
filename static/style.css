@@ -16,10 +16,31 @@ section{
     margin-top: auto;
 }
 
+/* Début du css sur le nav.html */
+
 nav {
+    display: flex;
     background-color: #FF0F39;
     font-family: 'Montserrat', sans-serif;
 }
+
+.flexx {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#barreRecherche {
+    display: flex;
+    margin: 0 0 0 790px;
+}
+
+#logoNav {
+    display: flex;
+    margin: 0 0 0 780px;
+    justify-content: right;
+}
+/* fin du css sur le nav.html */
 
 footer{
     font-family: 'Montserrat', sans-serif;
@@ -64,3 +85,5 @@ footer{
     list-style-type: none;
     align-items: center;
 }
+
+
