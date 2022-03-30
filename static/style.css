@@ -20,12 +20,15 @@ section{
 
 nav {
     display: flex;
+    flex-direction: row;
     background-color: #cd853f;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
 }
 
 .flexx {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     list-style-type: none;
