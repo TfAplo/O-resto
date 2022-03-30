@@ -22,6 +22,7 @@ nav {
     display: flex;
     background-color: #cd853f;
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
 }
 
 .flexx {
@@ -36,7 +37,6 @@ nav {
   }
 
 #logoNav {
-    margin: 0 0 0 750px;
     text-decoration: none;
 }
 
@@ -48,6 +48,12 @@ nav {
 .loupe {
     background-color: white;
     padding: 15px;
+}
+
+.orestologo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /* fin du css sur le nav.html */
 
