@@ -31,13 +31,16 @@ nav {
 }
 
 #barreRecherche {
-    display: flex;
-    margin: 0 0 0 790px;
-}
+    margin: 0 0 0 800px;
+    padding:15px;
+    border-radius: 10px;
+
+  }
 
 #logoNav {
     display: flex;
-    margin: 0 0 0 780px;
+    margin: 0 0 0 750px;
+    text-decoration: none;
 }
 /* fin du css sur le nav.html */
 
