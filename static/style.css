@@ -20,7 +20,7 @@ section{
 
 nav {
     display: flex;
-    background-color: #FF0F39;
+    background-color: #cd853f;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,19 +28,26 @@ nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    align-items: center;
 }
 
 #barreRecherche {
-    margin: 0 0 0 800px;
     padding:15px;
-    border-radius: 10px;
-
   }
 
 #logoNav {
-    display: flex;
     margin: 0 0 0 750px;
     text-decoration: none;
+}
+
+.pofinementR {
+    display: flex;
+    border: 1px solid rgb(0,0,0);
+}
+
+.loupe {
+    background-color: white;
+    padding: 15px;
 }
 /* fin du css sur le nav.html */
 
