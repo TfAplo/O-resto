@@ -13,7 +13,6 @@
             {% include 'nav.html' %}
             <!-- Cette ligne de code "include" permet que ce que tu ecris dans nav.html soit inséré ici mais ne varie pas selon le template (la page) chargé -->
         </nav>
-        <section>
             <header>
               {% block entete %}{% endblock %}
               <!-- Cette ligne de code "block" permet aux differentes templates (comme accueil.html) d'utiliser ces points d'appuits pour insérer leur html (variable selon les templates)-->
@@ -23,6 +22,5 @@
             <footer>
                 {% include 'footer.html' %}
             </footer>
-          </section>
     </body>
 </html>

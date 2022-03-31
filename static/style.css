@@ -8,14 +8,6 @@ body {
     flex-direction: column;
 }
 
-h1{
-    color: #7E9DC2;
-}
-
-section{
-    margin-top: auto;
-}
-
 /* Début du css sur le nav.html */
 
 nav {
@@ -59,6 +51,7 @@ nav {
 }
 /* fin du css sur le nav.html */
 
+/* début du css sur le footer.html */
 footer{
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
@@ -107,3 +100,41 @@ footer{
     height: 30px;
 }
 
+/* fin du css sur le footer.html */
+
+/* début du css sur le accueil.html */
+.contenu_ac{
+    /* background-image: url("https://s1.qwant.com/thumbr/0x380/0/6/6bf0a89195e66602fba5798acf5cb105d4a0ce28ff09e0d446434beb5a789d/wp1874173.jpg?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp1874173.jpg&q=0&b=1&p=0&a=0"); */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 170px;
+    /* background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+
+.contenu_ac h1{
+    font-size: 500%;
+    margin-left: 25%;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.desc{
+    width: 500px;
+    height: 330px;
+    line-height: 150%;
+    font-size: large;
+    margin-right: 25%;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 3%;
+    box-shadow: 0px 10px 25px 0px rgba(0,0,0, .5);
+}
+
+/* fin du css sur le accueil.html */
