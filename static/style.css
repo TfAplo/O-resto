@@ -104,19 +104,20 @@ footer{
 
 /* début du css sur le accueil.html */
 .contenu_ac{
-    /* background-image: url("https://s1.qwant.com/thumbr/0x380/0/6/6bf0a89195e66602fba5798acf5cb105d4a0ce28ff09e0d446434beb5a789d/wp1874173.jpg?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp1874173.jpg&q=0&b=1&p=0&a=0"); */
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-f9kpcIhyfvc%2FU6Gb9FjtflI%2FAAAAAAAAA3M%2Fq16vMv_Rspk%2Fs1600%2FGood%2BRestaurant%2BInteriors.jpg&f=1&nofb=1");
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 170px;
-    /* background-color: #cccccc;
+    background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; */
+    position: relative;
 }
 
 .contenu_ac h1{
+    color: aliceblue;
     font-size: 500%;
     margin-left: 25%;
     margin-right: auto;
@@ -125,16 +126,18 @@ footer{
 }
 
 .desc{
+    color: #cccccc;
     width: 500px;
     height: 330px;
     line-height: 150%;
     font-size: large;
     margin-right: 25%;
     margin-left: auto;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(119, 119, 119, 0.2);
     border-radius: 1rem;
     padding: 3%;
-    box-shadow: 0px 10px 25px 0px rgba(0,0,0, .5);
+    backdrop-filter: blur(10px);
+    
 }
 
 /* fin du css sur le accueil.html */
