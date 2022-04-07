@@ -55,7 +55,7 @@ nav {
 footer{
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    background-color: grey;
+    background-color: rgb(75, 75, 75);
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ footer{
 
 .madeby{
     font-size: small;
-    color: rgb(53, 49, 49);
+    color: rgb(117, 115, 115);
 }
 
 .media-list{
