@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-f9kpcIhyfvc%2FU6Gb9FjtflI%2FAAAAAAAAA3M%2Fq16vMv_Rspk%2Fs1600%2FGood%2BRestaurant%2BInteriors.jpg&f=1&nofb=1");
     background-color: #F8F8F8;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* Début du css sur le nav.html */
-
+nav{
+    background-color: rgba(46, 46, 46, 0.87);
+}
 
 /* fin du css sur le nav.html */
 
@@ -66,16 +73,10 @@ footer{
 
 /* début du css sur le accueil.html */
 .contenu_ac{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-f9kpcIhyfvc%2FU6Gb9FjtflI%2FAAAAAAAAA3M%2Fq16vMv_Rspk%2Fs1600%2FGood%2BRestaurant%2BInteriors.jpg&f=1&nofb=1");
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 170px;
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .contenu_ac h1{
