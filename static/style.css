@@ -10,45 +10,7 @@ body {
 
 /* Début du css sur le nav.html */
 
-nav {
-    display: flex;
-    flex-direction: row;
-    background-color: #cd853f;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.flexx {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-}
-
-#barreRecherche {
-    padding:15px;
-  }
-
-#logoNav {
-    text-decoration: none;
-}
-
-.pofinementR {
-    display: flex;
-    border: 1px solid rgb(0,0,0);
-}
-
-.loupe {
-    background-color: white;
-    padding: 15px;
-}
-
-.orestologo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 /* fin du css sur le nav.html */
 
 /* début du css sur le footer.html */
