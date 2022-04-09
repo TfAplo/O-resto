@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -47,8 +48,8 @@ footer{
     margin: auto;
     color: #a7a7a7;
     text-decoration: none;
-    transition-duration: 0.5s;
 }
+
 
 .madeby{
     font-size: small;
@@ -103,4 +104,29 @@ footer{
     
 }
 
+.values_glob {
+    text-align: center;
+}
+
+.values_glob h1{
+    font-family: 'Montserrat', sans-serif;
+    height: 200px;
+    background-image: linear-gradient(rgba(107, 107, 107, 0), rgb(190, 190, 190));
+    margin: 0;
+}
+
+.back{
+    background-color: rgb(190, 190, 190);
+}
+
+.valeurs_desc{
+    height: 400px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    line-height: 150%;
+    justify-content: center;
+}
 /* fin du css sur le accueil.html */
