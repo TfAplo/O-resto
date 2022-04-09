@@ -109,6 +109,9 @@ footer{
 }
 
 .values_glob h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
     height: 200px;
     background-image: linear-gradient(rgba(107, 107, 107, 0), rgb(190, 190, 190));
@@ -120,6 +123,8 @@ footer{
 }
 
 .valeurs_desc{
+    align-items: center;
+    display: flex;
     height: 400px;
     width: 800px;
     margin-right: auto;
@@ -127,6 +132,5 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     line-height: 150%;
-    justify-content: center;
 }
 /* fin du css sur le accueil.html */
