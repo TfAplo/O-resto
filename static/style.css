@@ -25,7 +25,7 @@ nav{
 footer{
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    background-color: rgb(75, 75, 75);
+    background-color: #cfae8f;
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -38,22 +38,22 @@ footer{
     align-items: center;
     width: 150px;
     height: 40px;
-    background-color: rgb(53, 49, 49);
+    background-color: #5a3f31;
     padding: 3px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .contact{
     font-size: larger;
     margin: auto;
-    color: #a7a7a7;
+    color: #cfae8f;
     text-decoration: none;
 }
 
 
 .madeby{
     font-size: small;
-    color: rgb(117, 115, 115);
+    color: rgb(0, 0, 0);
 }
 
 .media-list{
@@ -68,6 +68,13 @@ footer{
 .media-list li{
     padding: 0 20px 0 20px;
     height: 30px;
+}
+
+.line{
+    height: 2px;
+    width: 50%;
+    background-color: #5a3f31;
+    margin-bottom: 20px;
 }
 
 /* fin du css sur le footer.html */
@@ -114,18 +121,19 @@ footer{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     height: 200px;
-    background-image: linear-gradient(rgba(107, 107, 107, 0), rgb(190, 190, 190));
+    background-image: linear-gradient(rgba(107, 107, 107, 0), #cfae8f);
     margin: 0;
+    text-shadow: 0px 3px #cfae8f;
 }
 
 .back{
-    background-color: rgb(190, 190, 190);
+    background-color: #cfae8f;
 }
 
 .valeurs_desc{
     align-items: center;
     display: flex;
-    height: 400px;
+    height: 350px;
     width: 800px;
     margin-right: auto;
     margin-left: auto;
