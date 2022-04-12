@@ -7,6 +7,10 @@ app.secret_key = "dev"
 def accueil():
     return render_template('accueil.html')
 
+@app.route('/carte')
+def carte():
+    return render_template('carte.html')
+
 if __name__ == "__main__":
 	app.run(debug = True)
     

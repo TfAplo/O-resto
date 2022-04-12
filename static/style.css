@@ -2,7 +2,7 @@
 
 body {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-f9kpcIhyfvc%2FU6Gb9FjtflI%2FAAAAAAAAA3M%2Fq16vMv_Rspk%2Fs1600%2FGood%2BRestaurant%2BInteriors.jpg&f=1&nofb=1");
-    background-color: #F8F8F8;
+    background-color: #2d1610;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body {
 
 /* Début du css sur le nav.html */
 nav{
-    background-color: rgba(46, 46, 46, 0.87);
+    background-color: rgba(207, 174, 143, 0.50);
 }
 
 /* fin du css sur le nav.html */
