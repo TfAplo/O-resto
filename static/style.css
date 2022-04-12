@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Début du css sur le nav.html */
@@ -142,3 +143,46 @@ footer{
     line-height: 150%;
 }
 /* fin du css sur le accueil.html */
+
+/* carte */
+.container_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.container_c a{
+    margin: 40px;
+    height: 150px;
+    min-width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    column-width: 1000px;
+    box-shadow: -10px 10px 15px rgba(0, 0, 0,0.8);
+    font-size: 100px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.menus{
+    background-color: #442f20;
+    color: #CFAE8F;
+}
+
+.boissons{
+    background-color: #624733;
+    color: #95775E;
+}
+
+.plats{
+    background-color: #95775E;
+    color: #624733;
+}
+
+.entrees{
+    background-color: #CFAE8F;
+    color: #442f20;
+}
