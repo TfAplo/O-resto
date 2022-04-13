@@ -167,6 +167,12 @@ footer{
     transition-duration: 0.5s;
 }
 
+.container_c a:hover{
+    left: 20px;
+    bottom: 20px;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0,0.8);
+}
+
 .menus{
     background-color: #442f20;
     color: #CFAE8F;
